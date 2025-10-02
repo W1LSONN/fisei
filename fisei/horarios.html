@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLATAFORMAS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fff5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #b71c1c;
+        }
+        section {
+            margin-top: 40px;
+        }
+        table {
+            width: 95%;
+            margin: auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 8px;
+        }
+        th {
+            background-color: #f5c6cb; /* Rojo suave */
+            color: #000;
+        }
+        caption {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #b71c1c;
+        }
+        .carrera {
+            background-color: #f8d7da; /* Rojo claro */
+            font-weight: bold;
+        }
+        .materia {
+            font-style: italic;
+            background-color: #fff0f0; /* Fondo más claro */
+        }
+        /* Botón regresar */
+        .btn-back {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #b71c1c;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            width: fit-content;
+        }
+        .btn-back:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <h1>PLATAFORMAS</h1>
+
+    <section id="horarios">
+        <table>
+            <caption>Horario de Carreras con Materias (Lunes a Viernes)</caption>
+            <thead>
+                <tr>
+                    <th>Carrera</th>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Materia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- SOFTWARE -->
+                <tr class="carrera">
+                    <td rowspan="6">Software</td>
+                    <td>Lunes</td>
+                    <td>08:00 - 10:00</td>
+                    <td class="materia">Programación I</td>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>10:00 - 12:00</td>
+                    <td class="materia">Matemática Discreta</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>08:00 - 10:00</td>
+                    <td class="materia">Bases de Datos</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>10:00 - 12:00</td>
+                    <td class="materia">Algoritmos y Estructuras</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>14:00 - 16:00</td>
+                    <td class="materia">Sistemas Operativos</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>16:00 - 18:00</td>
+                    <td class="materia">Redes de Computadoras</td>
+                </tr>
+
+           
+                <tr class="carrera">
+                    <td rowspan="4">TI</td>
+                    <td>Martes</td>
+                    <td>09:00 - 11:00</td>
+                    <td class="materia">Electrónica Básica</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>11:00 - 13:00</td>
+                    <td class="materia">Matemática Aplicada</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>09:00 - 11:00</td>
+                    <td class="materia">Sistemas Embebidos</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>11:00 - 13:00</td>
+                    <td class="materia">Inteligencia Artificial</td>
+                </tr>
+
+                <!-- INDUSTRIAL -->
+                <tr class="carrera">
+                    <td rowspan="6">Industrial</td>
+                    <td>Lunes</td>
+                    <td>10:00 - 12:00</td>
+                    <td class="materia">Gestión de Procesos</td>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>12:00 - 14:00</td>
+                    <td class="materia">Estadística</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>10:00 - 12:00</td>
+                    <td class="materia">Seguridad Industrial</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>12:00 - 14:00</td>
+                    <td class="materia">Optimización</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>15:00 - 17:00</td>
+                    <td class="materia">Ingeniería de Métodos</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>17:00 - 19:00</td>
+                    <td class="materia">Producción y Logística</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Botón para regresar -->
+    <a href="index.html" class="btn-back">⬅ Regresar a la Página Principal</a>
+</body>
+</html>

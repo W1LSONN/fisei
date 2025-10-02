@@ -1,8 +1,177 @@
-<html>
-  <head>
-    <title> Nosotros</title>
-  </head>
-  <body>
-    Aqui va la informacion acerda de la fiei
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nosotros | FISEI - Universidad Técnica de Ambato</title>
+    <style>
+        /* Reset y base */
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        header h1 {
+            font-size: 3rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+
+        section {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        section h2 {
+            color: #2980b9;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            border-bottom: 3px solid #2980b9;
+            padding-bottom: 8px;
+        }
+
+        ul.values-list {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        ul.values-list li {
+            background-color: #eaf2f8;
+            color: #2c3e50;
+            padding: 12px 18px;
+            border-radius: 8px;
+            font-weight: 600;
+            flex: 1 1 200px;
+            text-align: center;
+        }
+
+        /* Equipo */
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        .team-member {
+            background-color: #f4f6f9;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 220px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .team-member h3 {
+            margin: 10px 0 5px;
+            color: #2980b9;
+        }
+        .team-member p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px 10px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+            margin-top: 60px;
+        }
+
+        @media(max-width: 600px) {
+            section {
+                padding: 20px 15px;
+            }
+            .team-member {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Facultad de Ingeniería en Sistemas Electrónica e Industrial (FISEI)</h1>
+            <p>Universidad Técnica de Ambato</p>
+        </header>
+
+        <section>
+            <h2>Misión</h2>
+            <p>
+                Formar profesionales de excelencia en ingeniería electrónica, sistemas e informática, con conocimientos científicos, tecnológicos y éticos, 
+                comprometidos con el desarrollo sostenible y la innovación, para aportar soluciones que beneficien a la sociedad.
+            </p>
+        </section>
+
+        <section>
+            <h2>Visión</h2>
+            <p>
+                Ser reconocida como una facultad líder a nivel regional y nacional en la formación de ingenieros competentes, 
+                fomentando la investigación, la innovación y la vinculación con la comunidad.
+            </p>
+        </section>
+
+        <section>
+            <h2>Valores</h2>
+            <ul class="values-list">
+                <li>Compromiso</li>
+                <li>Innovación</li>
+                <li>Responsabilidad</li>
+                <li>Ética profesionalessadas</li>
+                <li>Trabajo colaborativo</li>
+                <li>Excelencia académica</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Nuestra Historia</h2>
+            <p>
+                La Facultad de Ingeniería en Sistemas Electrónicos e Informáticos (FISEI) de la Universidad Técnica de Ambato fue fundada en 1995 con el objetivo de formar profesionales 
+                altamente capacitados en las áreas de electrónica, sistemas e informática. Desde entonces, ha contribuido al desarrollo tecnológico y social de la región a través de la educación, 
+                investigación y proyectos de vinculación con la comunidad.
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Facultad de Ingeniería en Sistemas Electrónica e Industrial (FISEI) - Universidad Técnica de Ambato
+    </footer>
+</body>
 </html>
